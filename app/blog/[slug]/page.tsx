@@ -92,7 +92,7 @@ export default function Article({ params }: { params: { slug: string } }) {
       <SiteNav />
       <main className="article">
         <Link className="back-link" href="/blog">
-          ← Back to all stories
+          Back to all stories
         </Link>
         <div className="article-heading">
           <div className="post-meta">
@@ -147,7 +147,7 @@ export default function Article({ params }: { params: { slug: string } }) {
               rel="noopener noreferrer"
               aria-label="Share on WhatsApp"
             >
-              W
+              WhatsApp
             </a>
             <a
               href={`mailto:?subject=${encodeURIComponent(
@@ -157,7 +157,7 @@ export default function Article({ params }: { params: { slug: string } }) {
               )}`}
               aria-label="Share by email"
             >
-              ✉
+              Email
             </a>
           </aside>
           <div className="article-body">
@@ -166,7 +166,7 @@ export default function Article({ params }: { params: { slug: string } }) {
             ) : (
               <>
                 <p>
-                  There’s a moment in every growing business when the inbox
+                  There is a moment in every growing business when the inbox
                   starts to feel like a second office. Questions arrive at all
                   hours, great leads get buried between quick replies, and your
                   team spends more time catching up than moving forward.
@@ -179,13 +179,13 @@ export default function Article({ params }: { params: { slug: string } }) {
                   repeatable moments with warmth and consistency.
                 </p>
                 <blockquote>
-                  “The best automation doesn’t feel automated. It feels like
+                  “The best automation does not feel automated. It feels like
                   someone cared enough to reply.”
                 </blockquote>
                 <h2>A better kind of busy</h2>
                 <p>
                   When the small questions are handled, your team gets time back
-                  for the conversations that need a human touch. That’s the real
+                  for the conversations that need a human touch. That is the real
                   promise of a helpful AI assistant: not fewer conversations, but
                   better ones.
                 </p>
@@ -215,7 +215,7 @@ export default function Article({ params }: { params: { slug: string } }) {
                 </div>
                 <div className="post-meta">{item.category}</div>
                 <h3>{item.title}</h3>
-                <span className="read-more">Read story ↗</span>
+                <span className="read-more">Read story</span>
               </Link>
             ))}
           </div>

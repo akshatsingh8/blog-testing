@@ -6,8 +6,7 @@ export function ConversationalAiArticle() {
       {/* Featured Snippet Optimization Box */}
       <div className="featured-snippet-card">
         <div className="snippet-badge">
-          <span className="snippet-icon">✦</span>
-          <span>Quick Summary & Definition</span>
+          <span>Quick Summary and Definition</span>
         </div>
         <p className="snippet-answer">
           <strong>Conversational AI for customer service</strong> uses artificial intelligence to understand customer messages, answer questions, qualify leads, automate follow-ups, and connect customers with human teams when required. For Indian businesses, WhatsApp-based conversational AI can help create faster and more consistent customer conversations while reducing repetitive work for sales and support teams.
@@ -108,7 +107,7 @@ export function ConversationalAiArticle() {
               <span className="btn-tag">3. Contact Sales</span>
             </p>
           </div>
-          <p className="comp-footer">❌ Rigid menus, breaks when users deviate, feels robotic.</p>
+          <p className="comp-footer">Rigid menus, breaks when users deviate, feels robotic.</p>
         </div>
 
         <div className="comparison-card modern">
@@ -117,13 +116,13 @@ export function ConversationalAiArticle() {
             <p><strong>Customer:</strong> &ldquo;I&rsquo;m looking for a 3BHK in Bengaluru and my budget is around ₹1.5 crore.&rdquo;</p>
             <p className="ai-reply">
               <strong>AI:</strong> Understands requirements immediately:
-              <span className="pill-tag">✓ Property: 3BHK</span>
-              <span className="pill-tag">✓ Location: Bengaluru</span>
-              <span className="pill-tag">✓ Budget: ₹1.5 Cr</span>
-              <span className="pill-tag">✓ Intent: High</span>
+              <span className="pill-tag">Property: 3BHK</span>
+              <span className="pill-tag">Location: Bengaluru</span>
+              <span className="pill-tag">Budget: ₹1.5 Cr</span>
+              <span className="pill-tag">Intent: High</span>
             </p>
           </div>
-          <p className="comp-footer">✅ Natural dialogue, captures parameters, triggers next workflow.</p>
+          <p className="comp-footer">Natural dialogue, captures parameters, triggers next workflow.</p>
         </div>
       </div>
 
@@ -166,7 +165,7 @@ export function ConversationalAiArticle() {
       <ul className="styled-list">
         <li><strong>Preferred location:</strong> Micro-market, neighborhood, proximity to transit</li>
         <li><strong>Property type:</strong> Apartment, villa, plot, commercial</li>
-        <li><strong>Budget range:</strong> Specific brackets (e.g., ₹80L–₹1.2Cr)</li>
+        <li><strong>Budget range:</strong> Specific brackets (e.g., ₹80L to ₹1.2Cr)</li>
         <li><strong>Buying timeline:</strong> Ready to move vs under-construction</li>
         <li><strong>Preferred configuration:</strong> 2BHK, 3BHK, penthouses</li>
       </ul>
@@ -176,7 +175,7 @@ export function ConversationalAiArticle() {
 
       <h3>4. Automated Follow-Ups</h3>
       <p>
-        A common bottleneck in sales is not always the first response—it is the follow-up. A prospect may ask for a brochure and then stop responding. Another may enquire about an executive course but delay the application. Someone shopping online may abandon a cart without completing checkout.
+        A common bottleneck in sales is not always the first response, it is the follow-up. A prospect may ask for a brochure and then stop responding. Another may enquire about an executive course but delay the application. Someone shopping online may abandon a cart without completing checkout.
       </p>
       <p>
         Without a structured follow-up process, these conversations slip through the cracks. Conversational AI supports predefined, courteous follow-up sequences on WhatsApp and halts them immediately when the customer replies, opts out, or converts.
@@ -194,7 +193,7 @@ export function ConversationalAiArticle() {
         <li>&ldquo;When will my order arrive?&rdquo;</li>
       </ul>
       <p>
-        Conversational AI systems ground their answers in approved company knowledge—official FAQs, product specifications, catalog data, and internal knowledge bases. This eliminates misinformation while reducing repetitive overhead on support staff.
+        Conversational AI systems ground their answers in approved company knowledge, including official FAQs, product specifications, catalog data, and internal knowledge bases. This eliminates misinformation while reducing repetitive overhead on support staff.
       </p>
 
       <h3>6. Human Handoff When AI Should Step Aside</h3>
@@ -205,13 +204,13 @@ export function ConversationalAiArticle() {
         A customer may have a complex complaint, an upset tone, a billing dispute, or a high-value custom requirement. In such situations, continuing with an automated response damages trust.
       </p>
       <p>
-        QuickReach AI is engineered to transfer conversations seamlessly to a human team member with full background context—including detected customer intent, lead score, and recent message transcripts.
+        QuickReach AI is engineered to transfer conversations seamlessly to a human team member with full background context, including detected customer intent, lead score, and recent message transcripts.
       </p>
 
       {/* Section 5 */}
       <h2>Conversational AI on WhatsApp: Why It Matters in India</h2>
       <p>
-        For Indian businesses, WhatsApp is not just an app—it is the default operating system for everyday communication. Customers use it to ask questions, share documents, discuss prices, receive order tracking updates, and communicate with service providers.
+        For Indian businesses, WhatsApp is not just an app, it is the default operating system for everyday communication. Customers use it to ask questions, share documents, discuss prices, receive order tracking updates, and communicate with service providers.
       </p>
       <p>
         Meeting customers where they already are avoids forcing them to download separate apps or check email inboxes they rarely open.
@@ -229,7 +228,6 @@ export function ConversationalAiArticle() {
       <div className="industry-cards-grid">
         <div className="industry-box">
           <div className="ind-header">
-            <span className="ind-icon">🏢</span>
             <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/real-estate" target="_blank" rel="noopener noreferrer">Real Estate</Link></h4>
           </div>
           <p>
@@ -237,7 +235,7 @@ export function ConversationalAiArticle() {
           </p>
           <ul>
             <li>Instantly acknowledge property inquiries</li>
-            <li>Capture location preferences & budget</li>
+            <li>Capture location preferences and budget</li>
             <li>Share brochures, floor plans, and pricing sheets</li>
             <li>Book site visits directly onto sales rep calendars</li>
             <li>Route hot leads to local relationship managers</li>
@@ -246,8 +244,7 @@ export function ConversationalAiArticle() {
 
         <div className="industry-box">
           <div className="ind-header">
-            <span className="ind-icon">🛍️</span>
-            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/ecommerce" target="_blank" rel="noopener noreferrer">E-Commerce & D2C</Link></h4>
+            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/ecommerce" target="_blank" rel="noopener noreferrer">E-Commerce and D2C</Link></h4>
           </div>
           <p>
             Online shoppers demand immediate clarity before parting with money. Conversational AI delivers:
@@ -263,14 +260,13 @@ export function ConversationalAiArticle() {
 
         <div className="industry-box">
           <div className="ind-header">
-            <span className="ind-icon">🎓</span>
-            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/education" target="_blank" rel="noopener noreferrer">Education & EdTech</Link></h4>
+            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/education" target="_blank" rel="noopener noreferrer">Education and EdTech</Link></h4>
           </div>
           <p>
             Institutes receive thousands of questions during admission cycles regarding eligibility, fees, faculty, and placement stats. Conversational AI helps:
           </p>
           <ul>
-            <li>Answer routine curriculum & admission queries</li>
+            <li>Answer routine curriculum and admission queries</li>
             <li>Qualify students based on background and test scores</li>
             <li>Schedule 1-on-1 counseling calls with academic advisors</li>
             <li>Send application deadline reminders and fee links</li>
@@ -279,8 +275,7 @@ export function ConversationalAiArticle() {
 
         <div className="industry-box">
           <div className="ind-header">
-            <span className="ind-icon">🩺</span>
-            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/healthcare" target="_blank" rel="noopener noreferrer">Healthcare & Clinics</Link></h4>
+            <h4><Link href="https://quickreachai.brandspiritlabs.com/industries/healthcare" target="_blank" rel="noopener noreferrer">Healthcare and Clinics</Link></h4>
           </div>
           <p>
             Healthcare requires a strict balance between administrative convenience and medical prudence:
@@ -328,7 +323,7 @@ export function ConversationalAiArticle() {
         <div className="flow-step">
           <div className="step-num">4</div>
           <div className="step-info">
-            <strong>Intent & Context Understood</strong>
+            <strong>Intent and Context Understood</strong>
             <p>AI interprets user natural language and identifies requirements, timeline, and urgency.</p>
           </div>
         </div>
@@ -385,7 +380,7 @@ export function ConversationalAiArticle() {
 
       <div className="platform-criteria">
         <div className="crit-item">
-          <strong>1. Natural Conversations:</strong> Does it understand Indian phrasing, abbreviations, and mixed English/Hindi contexts without breaking into rigid error loops?
+          <strong>1. Natural Conversations:</strong> Does it understand Indian phrasing, abbreviations, and mixed English and Hindi contexts without breaking into rigid error loops?
         </div>
         <div className="crit-item">
           <strong>2. Business-Controlled Knowledge:</strong> Can you restrict its knowledge base strictly to approved documentation, pricing sheets, and policies?
@@ -397,10 +392,10 @@ export function ConversationalAiArticle() {
           <strong>4. Automated Follow-Ups:</strong> Can you define multi-step follow-up sequences that stop the instant a customer responds?
         </div>
         <div className="crit-item">
-          <strong>5. One-Click Human Handoff:</strong> Can your team view live chats, receive desktop/mobile notifications, and take over seamlessly?
+          <strong>5. One-Click Human Handoff:</strong> Can your team view live chats, receive desktop and mobile notifications, and take over seamlessly?
         </div>
         <div className="crit-item">
-          <strong>6. Integrations & Analytics:</strong> Check the platform&rsquo;s ability to sync with Meta Ads, HubSpot, Zoho, Google Sheets, calendars, and WhatsApp BSPs.
+          <strong>6. Integrations and Analytics:</strong> Check the platform&rsquo;s ability to sync with Meta Ads, HubSpot, Zoho, Google Sheets, calendars, and WhatsApp BSPs.
         </div>
       </div>
 
@@ -418,10 +413,10 @@ export function ConversationalAiArticle() {
         You do not need to overhaul your entire enterprise operation overnight. A smarter strategy is to implement <strong>one specific, high-frequency workflow</strong>:
       </p>
       <ul className="workflow-examples">
-        <li><strong>Real Estate:</strong> New Meta Lead Ad → Immediate WhatsApp verification → Budget & BHK qualification → Site visit booking</li>
-        <li><strong>Education:</strong> Course form submission → Syllabus delivery → Eligibility check → Academic counseling session</li>
-        <li><strong>E-Commerce:</strong> Pre-purchase WhatsApp query → Product recommendation → Checkout link</li>
-        <li><strong>Healthcare:</strong> Clinic website inquiry → Doctor schedule display → Appointment confirmation</li>
+        <li><strong>Real Estate:</strong> New Meta Lead Ad to immediate WhatsApp verification, budget qualification, and site visit booking</li>
+        <li><strong>Education:</strong> Course form submission to syllabus delivery, eligibility check, and academic counseling session</li>
+        <li><strong>E-Commerce:</strong> Pre-purchase WhatsApp query to product recommendation and direct checkout link</li>
+        <li><strong>Healthcare:</strong> Clinic website inquiry to doctor schedule display and appointment confirmation</li>
       </ul>
       <p>
         Starting with a single measurable journey allows you to track lead-to-response speed, conversion improvements, and customer satisfaction before expanding to other departments.
@@ -444,10 +439,10 @@ export function ConversationalAiArticle() {
         </p>
         <div className="cta-actions">
           <Link href="https://quickreachai.brandspiritlabs.com/" className="btn-brand-primary" target="_blank" rel="noopener noreferrer">
-            Explore QuickReach AI ↗
+            Explore QuickReach AI
           </Link>
           <Link href="https://quickreachai.brandspiritlabs.com/contact?intent=demo" className="btn-brand-secondary" target="_blank" rel="noopener noreferrer">
-            Book a Free Demo ↗
+            Book a Free Demo
           </Link>
         </div>
       </div>

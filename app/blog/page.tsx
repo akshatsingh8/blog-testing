@@ -73,7 +73,7 @@ export default function BlogPage() {
               </span>
             </div>
             <Link className="button-primary" href={`/blog/${featured.slug}`}>
-              Read featured story <span aria-hidden="true">↗</span>
+              Read featured story
             </Link>
           </div>
         </section>
@@ -104,7 +104,7 @@ export default function BlogPage() {
               <div className="post-footer">
                 <span>{post.readTime}</span>
                 <Link className="read-more" href={`/blog/${post.slug}`}>
-                  Read story <span aria-hidden="true">↗</span>
+                  Read story
                 </Link>
               </div>
             </article>
